@@ -5,7 +5,7 @@
   image: /assets/images/fyp-results.png
   image_link: /assets/images/fyp-results.png
   alt: Commanded and actual forward velocity, lateral velocity, and yaw rate for PD-only and hybrid controllers.
-  caption: Comparison of velocity tracking with PD-only control (left) and the actuator-net augmented controller (right).
+  caption: Comparison of velocity tracking with PD-only control (left) and the actuator-net augmented control (right).
   description: >-
     Built a framework to learn actuator dynamics from real robot data and integrate
     them into policy training. Tested on Unitree Go1 and HEBI Daisy; a hybrid
@@ -18,7 +18,7 @@
   tags: Reinforcement learning · PPO · Reward shaping · MuJoCo
   image: /assets/images/pusher.jpg
   video: /assets/videos/pusher.mp4
-  caption: A learned policy pushes an object to its target in MuJoCo. Silent clip.
+  caption: Demonstration of the learned policy pushing an object to its target in MuJoCo.
   description: >-
     Developed a custom MuJoCo–Gym environment for a 7-DOF arm and trained a compact
     actor–critic PPO policy with generalized advantage estimation. Structured
@@ -32,7 +32,7 @@
   tags: Soft robotics · Pneumatic actuation · Embedded feedback control · Arduino GIGA
   image: /assets/images/fluidic-controller.jpg
   video: /assets/videos/fluidic-controller.mp4
-  caption: Touchscreen-controlled pneumatic actuation on the test bench. Silent clip.
+  caption: Touchscreen-controlled pneumatic actuation on a test soft actuator.
   description: >-
     Designed a fluidic control board for soft actuators, with PID pressure regulation
     over 0–150 kPa and programmable inflation/deflation cycles.
@@ -43,21 +43,21 @@
   tags: Soft robotics · Pneumatic actuation · Silicone molding · Open-loop actuation sequencing · ESP32 · Bluetooth / Wi-Fi Integration
   image: /assets/images/robotic-turtle.jpg
   video: /assets/videos/robotic-turtle.mp4
-  caption: The team's untethered turtle prototype swimming forward. Silent clip.
+  caption: Demonstration of the untethered soft robotic turtle swimming.
   description: >-
     Co-designed and built a swimming robot with custom silicone bellow actuators
-    and an ESP32 pump–valve controller. Developed wireless control using PS4
-    Bluetooth inputs and Python speech-to-text commands to trigger actuation sequences.
+    and an ESP32 pump–valve controller. Actuation sequences were controlled wirelessly using PS4
+    Bluetooth inputs.
   external: https://youtu.be/mDrqh73WVw4
   external_label: Full video on YouTube ↗
 
 - id: pillbuddy
-  title: PillBuddy — an automated pill dispenser to tackle polypharmacy
+  title: PillBuddy: an automated pill dispenser for polypharmacy
   context: Medical Grand Challenge · NUS · Aug 2024
   tags: Mechatronic design · Servo actuation · Arduino · 3D printing
   image: /assets/images/pillbuddy.jpg
   video: /assets/videos/pillbuddy.mp4
-  caption: A servo-driven rotating mechanism in the pill-dispenser prototype. Silent clip.
+  caption: Demonstration of the pill-dispenser prototype.
   description: >-
     Designed and built an automated pill-dispenser prototype with an interdisciplinary
     team of six students in computing, medicine, and engineering. Combined Arduino
@@ -66,7 +66,7 @@
     <strong>Nascent Category finalist</strong> in the Medical Grand Challenge 2024.
 
 - id: wearable-electronics
-  title: Wearable fabric electronics
+  title: One-dimensional circuit fabrication for wearable electronics
   context: Undergraduate Research Experience (UREx) · NUS · 2024
   tags: Wearable electronics · 1D circuit fabrication · Microsoldering · Micro-LED integration · Arduino
   images:
@@ -74,19 +74,14 @@
       alt: Close-ups of the alignment mold and micro-LEDs positioned for fabrication.
     - src: /assets/images/urex-illuminated.png
       alt: The fabricated micro-LED circuit illuminated blue during testing.
-  caption: Alignment mold and micro-LED placement (left); illuminated circuit (right). Images from my UREx report.
+  caption: Fabrication of the circuit (left); illuminated circuit (right)
   description: >-
     Fabricated a one-dimensional circuit for wearable electronics under the
     supervision of Professor Tural Khudiyev. Used a custom alignment mold and
     microscope-assisted soldering to connect <strong>96 micro-LEDs</strong> with
-    conductive wires, integrating serial data connections and shared power lines.
-    Validated electrical functionality by illuminating all 96 LEDs with an Arduino,
-    and identified mechanical fragility and manual assembly as limitations for
-    future textile integration.
-    <br><br>Related lab research — Fu et al.,
-    <a href="https://doi.org/10.1038/s41586-026-11128-9">Touch-sensing digital pixel fibre enables interactive garment GUI</a>
-    (<em>Nature</em>, 2026) — uses mold-aligned micro-LED circuit fabrication,
-    an approach also explored in my UREx work. I am not an author of that paper;
-    the work described here is my UREx fabrication and testing project.
-  resource: /assets/files/urex-project-report.pdf
+    conductive wires, integrating serial data connections and shared power lines. The lab’s subsequent work in this research
+    direction was recently published in
+    <a href="https://doi.org/10.1038/s41586-026-11128-9">Fu et al.,
+    “Touch-sensing digital pixel fibre enables interactive garment GUI”</a>
+    (<em>Nature</em>, 2026)!
   resource_label: Project report (PDF)

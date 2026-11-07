@@ -39,7 +39,7 @@ title: Robotics Research
 </section>
 
 <section id="projects">
-  <div class="section-heading"><h2>Selected projects</h2><span>From simulation to working hardware</span></div>
+  <div class="section-heading"><h2>Selected projects</h2></div>
   <div class="project-grid">
     {% for project in site.data.projects %}
       {% include project.html project=project %}
