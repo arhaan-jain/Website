@@ -23,15 +23,14 @@
         <a href="{{ '/' | relative_url }}#research">Research</a>
         <a href="{{ '/' | relative_url }}#projects">Projects</a>
         <a href="{{ '/' | relative_url }}#experience">Experience</a>
-        <a href="{{ '/' | relative_url }}#skills">Skills</a>
         <a href="{{ '/' | relative_url }}#education">Education</a>
-        <a href="{{ '/more/' | relative_url }}"{% if page.permalink == '/more/' %} aria-current="page"{% endif %}>More about me ↗</a>
+        <a href="{{ '/' | relative_url }}#more">More about me</a>
       </nav>
       <p class="sidebar-note">Learning in simulation.<br>Building for the real world.</p>
     </header>
     <main id="main-content" tabindex="-1">
       {{ content }}
-      <footer class="site-footer"><p>© {{ 'now' | date: '%Y' }} {{ site.title }} · <a href="{{ '/more/' | relative_url }}">More about me</a></p><p>Hosted on GitHub Pages · Built with the <a href="https://github.com/pages-themes/minimal">Minimal theme</a></p></footer>
+      <footer class="site-footer"><p>© {{ 'now' | date: '%Y' }} {{ site.title }} · <a href="{{ '/' | relative_url }}#more">More about me</a></p><p>Hosted on GitHub Pages · Built with the <a href="https://github.com/pages-themes/minimal">Minimal theme</a></p></footer>
     </main>
   </div>
 </body>

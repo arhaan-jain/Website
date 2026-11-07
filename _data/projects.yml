@@ -1,7 +1,7 @@
 - id: actuator-networks
   title: Bridging the sim-to-real gap
   context: Undergraduate final-year project · NUS · 2026
-  tags: Sim-to-real · Actuator modeling · Legged robots
+  tags: Sim-to-real transfer · Learned actuator dynamics · Supervised torque regression · Hybrid PD control · Isaac Lab
   image: /assets/images/fyp-results.png
   image_link: /assets/images/fyp-results.png
   alt: Commanded and actual forward velocity, lateral velocity, and yaw rate for PD-only and hybrid controllers.
@@ -18,7 +18,7 @@
 - id: pusher
   title: Learning contact-rich pushing
   context: Deep Learning for Robotics · NUS · Jan–Apr 2025
-  tags: Reinforcement learning · PPO · MuJoCo
+  tags: Reinforcement learning · PPO · Generalized advantage estimation (GAE) · Reward shaping · Continuous torque control · MuJoCo
   image: /assets/images/pusher.jpg
   video: /assets/videos/pusher.mp4
   caption: A learned policy pushes an object to its target in MuJoCo. Silent clip.
@@ -31,8 +31,8 @@
 
 - id: fluidic-controller
   title: A controller for soft robotic actuators
-  context: Evolution Innovation Lab (Raye Lab) · Jul–Nov 2025
-  tags: Soft robotics · PID control · Embedded systems
+  context: '<a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a> · Jul–Nov 2025'
+  tags: Soft robotics · Pneumatic actuation · PID pressure regulation · Embedded control · Touchscreen HMI · Arduino GIGA
   image: /assets/images/fluidic-controller.jpg
   video: /assets/videos/fluidic-controller.mp4
   caption: Touchscreen-controlled pneumatic actuation on the test bench. Silent clip.
@@ -45,7 +45,7 @@
 - id: robotic-turtle
   title: A bio-inspired soft robotic turtle
   context: Soft Robotics · NUS · Aug–Dec 2024
-  tags: Bio-inspired design · Pneumatics · Wireless control
+  tags: Soft robotics · Pneumatic actuation · Silicone molding · Open-loop actuation sequencing · ESP32 · Bluetooth / Wi-Fi
   image: /assets/images/robotic-turtle.jpg
   video: /assets/videos/robotic-turtle.mp4
   caption: The team's untethered turtle prototype swimming forward. Silent clip.
@@ -56,3 +56,17 @@
     The project brought together soft-actuator fabrication, embedded control, and physical testing.
   external: https://youtu.be/mDrqh73WVw4
   external_label: Full video on YouTube ↗
+
+- id: pillbuddy
+  title: PillBuddy — automated pill dispensing
+  context: Medical Grand Challenge · NUS · Mar–Aug 2024
+  tags: Mechatronic design · Servo actuation · Rotary dispensing · Embedded control · Arduino · 3D printing
+  image: /assets/images/pillbuddy.jpg
+  video: /assets/videos/pillbuddy.mp4
+  caption: A servo-driven rotating mechanism in the pill-dispenser prototype. Silent clip.
+  description: >-
+    Designed and built an automated pill-dispenser prototype with an interdisciplinary
+    team of six students in computing, medicine, and engineering. Combined Arduino
+    control, a servo-driven rotating mechanism, 3D printing, and machining to support
+    medication management for people taking multiple medicines. The team was a
+    <strong>Nascent Category finalist</strong> in the Medical Grand Challenge 2024.

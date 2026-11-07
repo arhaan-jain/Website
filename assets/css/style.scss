@@ -44,7 +44,7 @@ main > section { float: none; width: auto; padding: 0; border: 0; margin: 0 0 52
 .research-image img { display: block; width: 100%; height: 165px; object-fit: contain; }
 .authors { font-size: 12px; line-height: 1.65; color: var(--muted); margin-bottom: 8px; }
 .meta { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
-.research-item p:not(.meta):not(.authors) { font-size: 14px; }
+.research-item p:not(.meta):not(.authors):not(.tags) { font-size: 14px; }
 .resource-links { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; margin-top: 12px; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 25px; }
 .project { min-width: 0; }
@@ -56,16 +56,12 @@ main > section { float: none; width: auto; padding: 0; border: 0; margin: 0 0 52
 figcaption { font-size: 11px; color: var(--muted); margin-top: 7px; line-height: 1.5; }
 .project p { font-size: 14px; }
 .project .meta { font-size: 12px; }
-.tags { font-size: 11px !important; color: var(--accent); margin-bottom: 8px; }
+.tags, .project .tags, .research-item p.tags { font-size: 12px; line-height: 1.7; color: var(--accent); margin: 14px 0 8px; }
 .experience-item { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 24px; margin-bottom: 24px; }
 .experience-item > .meta { padding-top: 3px; }
-.experience-item h3 { font-size: 16px; margin-bottom: 4px; }
+.experience-item h3, .experience-item h4 { font-size: 16px; margin-bottom: 4px; }
 .experience-item p { font-size: 14px; }
 .experience-item .position { color: var(--accent); margin-bottom: 6px; font-size: 13px; }
-.skill-list { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 13px 25px; margin: 0; font-size: 14px; }
-.skill-list dt { font-weight: 700; }
-.skill-list dd { margin: 0; color: var(--muted); }
-.more-link { border-top: 1px solid var(--line); padding-top: 22px; color: var(--muted); font-size: 14px; }
 footer.site-footer { float: none; position: static; width: auto; margin: 45px 0 0; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
 .site-footer p { margin-bottom: 4px; }
 .skip-link { position: absolute; left: 16px; top: -100px; background: #fff; padding: 10px 16px; z-index: 5; }
@@ -97,10 +93,10 @@ footer.site-footer { float: none; position: static; width: auto; margin: 45px 0 
   .project-grid { grid-template-columns: 1fr; gap: 35px; }
   .experience-item { grid-template-columns: 1fr; gap: 2px; }
   .experience-item > .meta { margin-bottom: 4px; }
-  .skill-list { grid-template-columns: 1fr; gap: 4px; }
-  .skill-list dd { margin-bottom: 14px; }
   .section-heading { flex-wrap: wrap; gap: 0; padding-bottom: 10px; }
   .section-heading h2 { margin-bottom: 5px; width: 100%; }
   main > section { margin-bottom: 40px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.subsection-heading { margin: 30px 0 20px; font-size: 18px; }
