@@ -6,7 +6,7 @@ Live URL: https://arhaan-jain.github.io/Website/
 
 ## Edit the site
 
-- `index.md`: introduction, papers, research experience, education, and the More about me section.
+- `index.md`: introduction, papers, research experience, education, and the Beyond robotics section.
 - `_data/projects.yml`: five project descriptions, technical concepts, media paths, and links (including PillBuddy).
 - `_config.yml`: profile name, contact links, CV path, and GitHub Pages URL.
 - `_layouts/default.html`: shared profile sidebar and navigation.
@@ -24,7 +24,7 @@ Original uploads in `W/`, `Profile Pic/`, and `Resume Dump/` are kept locally an
 
 Content comes from the supplied résumé versions, HeLoM and X-Morph papers, the final-year presentation, and project reports. The more recent résumés supply Penn education and the current research role. The actuator-network project uses the presentation's Go1 platform description; the résumé's broader MARMot work also mentions Go2. Paper figures are taken from the supplied PDFs and link to their papers. Papers are labeled as preprints/under review, as specified in the résumés.
 
-Project videos are silent H.264 MP4 clips at 960px wide, with poster images and on-demand playback. The turtle entry links to the full YouTube video. The More about me section links to The Last Lap documentary. Other original videos remain in the local source folders for future use.
+Project videos are silent H.264 MP4 clips at 960px wide, with poster images and on-demand playback. The turtle entry links to the full YouTube video. The Beyond robotics section links to The Last Lap documentary. Other original videos remain in the local source folders for future use.
 
 ## Local preview
 

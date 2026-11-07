@@ -12,8 +12,6 @@
     controller paired learned actuator models with PD control for the hexapod's
     different limb roles. In the final-year experiments, the hybrid controller
     reduced average velocity-tracking error by at least 20% relative to PD-only control.
-  resource: /assets/files/actuator-networks-presentation.pdf
-  resource_label: Presentation (PDF)
 
 - id: pusher
   title: Learning contact-rich pushing
@@ -31,7 +29,7 @@
 
 - id: fluidic-controller
   title: A controller for soft robotic actuators
-  context: '<a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a> · Jul–Nov 2025'
+  context: '<a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a> · NUS · Jul–Nov 2025'
   tags: Soft robotics · Pneumatic actuation · PID pressure regulation · Embedded control · Touchscreen HMI · Arduino GIGA
   image: /assets/images/fluidic-controller.jpg
   video: /assets/videos/fluidic-controller.mp4

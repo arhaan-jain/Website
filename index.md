@@ -47,10 +47,10 @@ title: Robotics Research
 
 <section id="experience">
   <div class="section-heading"><h2>Research experience</h2></div>
-  <article class="experience-item"><p class="meta">Sep 2026–present</p><div><h3><a href="https://figueroa.seas.upenn.edu">Figueroa Robotics Lab</a></h3><p class="position">Research Assistant · University of Pennsylvania</p><p>Working on making state-of-the-art manipulation policies human-interactive.</p></div></article>
-  <article class="experience-item"><p class="meta">Jul 2025–Jul 2026</p><div><h3><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion Lab</a></h3><p class="position">Robotics Research Assistant · National University of Singapore</p><p>Developed sim-to-real pipelines for hierarchical reinforcement learning and reference-conditioned motion tracking across legged robot morphologies, with contributions to HeLoM and X-Morph.</p></div></article>
-  <article class="experience-item"><p class="meta">Jul–Nov 2025</p><div><h3><a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a></h3><p class="position">Research Intern</p><p>Designed and built a PID-regulated fluidic controller with a touchscreen interface for programmable soft-robot actuation.</p></div></article>
-  <article class="experience-item"><p class="meta">Aug–Dec 2024</p><div><h3>Wearable fabric electronics</h3><p class="position">Undergraduate Research · NUS · Supervised by Prof. Tural Khudiyev</p><p>Developed a soldering-based fabrication method for one-dimensional circuits with 96 micro-LEDs, and validated connectivity with an Arduino. Awarded a $5,000 project grant.</p></div></article>
+  <article class="experience-item"><p class="meta">Sep 2026–present</p><div><h3><a href="https://figueroa.seas.upenn.edu">Figueroa Robotics Lab</a></h3><p class="position">Research Assistant · University of Pennsylvania</p><p class="supervision">Supervised by Professor <a href="https://figueroa.seas.upenn.edu/people/">Nadia Figueroa</a></p><p>Working on making state-of-the-art manipulation policies human-interactive.</p></div></article>
+  <article class="experience-item"><p class="meta">Jul 2025–Jul 2026</p><div><h3><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion Lab</a></h3><p class="position">Robotics Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.marmotlab.org/people.html">Guillaume Sartoretti</a></p><p>Developed sim-to-real pipelines for hierarchical reinforcement learning and reference-conditioned motion tracking across legged robot morphologies, with contributions to HeLoM and X-Morph.</p></div></article>
+  <article class="experience-item"><p class="meta">Jul–Nov 2025</p><div><h3><a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a></h3><p class="position">Research Intern · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.rayelab.org/rayeyeow">Raye Yeow</a></p><p>Designed and built a PID-regulated fluidic controller with a touchscreen interface for programmable soft-robot actuation.</p></div></article>
+  <article class="experience-item"><p class="meta">Aug–Dec 2024</p><div><h3>NUS Materials Science and Engineering</h3><p class="position">Undergraduate Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor Tural Khudiyev</p><p>Developed a soldering-based fabrication method for one-dimensional circuits with 96 micro-LEDs, and validated connectivity with an Arduino. Awarded a $5,000 project grant.</p></div></article>
 </section>
 
 <section id="education">
@@ -59,17 +59,7 @@ title: Robotics Research
   <article class="experience-item"><p class="meta">Aug 2022–Jul 2026</p><div><h3>National University of Singapore</h3><p class="position">B.Eng. in Mechanical Engineering · Highest Distinction</p><p>Robotics specialization · Minor in Management · GPA 4.68/5.00.<br>Dean's List (AY2025/26, Semester 1) and NUS College President's Honor Roll.</p></div></article>
 </section>
 
-<section id="more">
-  <div class="section-heading"><h2>More about me</h2></div>
-<h3 class="subsection-heading">Industry experience</h3>
-  <article class="experience-item"><p class="meta">Feb–Jun 2026</p><div><h4>Roceso Technologies</h4><p class="position">Engineering Intern · Singapore</p><p>Worked on a wearable upper-limb assistive orthosis using EMG-based intent detection to control motorized assistance. Developed fabrication instructions and process documentation for the EsoGlove neurorehabilitation system.</p></div></article>
-  <article class="experience-item"><p class="meta">Jan–May 2025</p><div><h4>Pratt &amp; Whitney</h4><p class="position">Research &amp; Development Intern · Singapore</p><p>Combined robotic-arm programming and machine learning to automate a manual process, reducing processing time by 25%. Co-developed an ML-powered visual-inspection application and contributed to factory digital-twin work using 3D scanning.</p></div></article>
-  <article class="experience-item"><p class="meta">May–Jul 2024</p><div><h4>Jyoti CNC Automation</h4><p class="position">Application Engineering Intern · India</p><p>Developed a Flask application to estimate CNC setup cycle times and automated bottlenecks in the estimation workflow.</p></div></article>
-
-<h3 class="subsection-heading">Community &amp; making</h3>
-  <article class="experience-item"><p class="meta">Jan 2023–Apr 2025</p><div><h4>Project Kapwa</h4><p class="position">NUS College · Impact Experience</p><p>Worked on a two-year community service project in Dumaguete, Philippines, supported by a S$21,000 grant. Contributed bamboo playground design and a fundraising/outreach website for Agape Orphanage, and supported vermicomposting work with Bata ng Calabnugan.</p></div></article>
-  <article class="experience-item"><p class="meta">Nov 2023–Oct 2024</p><div><h4>Makers' Studio</h4><p class="position">Deputy Director · NUS College</p><p>Maintained fabrication equipment and helped run more than five training sessions and workshops for students.</p></div></article>
-
-<h3 class="subsection-heading">Outside the lab</h3>
+<section id="beyond-robotics">
+  <div class="section-heading"><h2>Beyond robotics</h2></div>
   <p>I enjoy badminton, football, squash, scuba diving, and filmmaking. I co-created a short documentary about the Singapore Turf Club, <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>.</p>
 </section>
