@@ -5,7 +5,7 @@ title: Robotics Research
 
 <section id="about" class="intro">
   <p>I'm Arhaan Jain, a robotics master's student at the <strong>University of Pennsylvania</strong> and a research assistant in the <strong><a href="https://figueroa.seas.upenn.edu">Figueroa Robotics Lab</a></strong>, where I am working on making manipulation policies human-interactive.</p>
-  <p>Previously, I studied mechanical engineering at the <strong>National University of Singapore</strong> and worked with the <strong><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion (MARMot) Lab</a></strong> and <strong><a href="https://www.rayelab.org">Raye Lab</a></strong>.</p>
+  <p>Previously, I studied mechanical engineering at the <strong>National University of Singapore</strong>, where I worked on sim-to-real robot learning and legged loco-manipulation with the <strong><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion (MARMot) Lab</a></strong>, and pneumatic control systems for soft robots with <strong><a href="https://www.rayelab.org">Raye Lab</a></strong>.</p>
   <p> I’m particularly interested in how robots can learn and transfer skills across different morphologies while incorporating human feedback and adapting to evolving human intent.
   </p>
 </section>
