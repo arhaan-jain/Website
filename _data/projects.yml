@@ -64,3 +64,22 @@
     control, a servo-driven rotating mechanism, 3D printing, and machining to support
     medication management for people taking multiple medicines. The team was a
     <strong>Nascent Category finalist</strong> in the Medical Grand Challenge 2024.
+
+- id: wearable-electronics
+  title: Wearable fabric electronics
+  context: Undergraduate Research Experience (UREx) · NUS · 2024
+  tags: Wearable electronics · 1D circuit fabrication · Microsoldering · Micro-LED integration · Arduino
+  image: /assets/images/urex-circuit.jpg
+  image_link: /assets/images/urex-circuit.jpg
+  alt: A flexible line of 96 interconnected micro-LEDs laid out on a workbench.
+  caption: Fabricated 1D circuit containing 96 micro-LEDs. Click to enlarge.
+  description: >-
+    Fabricated a one-dimensional circuit for wearable electronics under the
+    supervision of Professor Tural Khudiyev. Used a custom alignment mold and
+    microscope-assisted soldering to connect <strong>96 micro-LEDs</strong> with
+    conductive wires, integrating serial data connections and shared power lines.
+    Validated electrical functionality by illuminating all 96 LEDs with an Arduino,
+    and identified mechanical fragility and manual assembly as limitations for
+    future textile integration.
+  resource: /assets/files/urex-project-report.pdf
+  resource_label: Project report (PDF)

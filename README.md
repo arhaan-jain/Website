@@ -7,7 +7,7 @@ Live URL: https://arhaan-jain.github.io/Website/
 ## Edit the site
 
 - `index.md`: introduction, papers, research experience, education, and the Beyond robotics section.
-- `_data/projects.yml`: five project descriptions, technical concepts, media paths, and links (including PillBuddy).
+- `_data/projects.yml`: six project descriptions, technical concepts, media paths, and links (including PillBuddy and UREx wearable electronics).
 - `_config.yml`: profile name, contact links, CV path, and GitHub Pages URL.
 - `_layouts/default.html`: shared profile sidebar and navigation.
 - `_includes/project.html`: reusable project entry.
