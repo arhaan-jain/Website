@@ -2,9 +2,10 @@
   title: Bridging the sim-to-real gap
   context: Undergraduate final-year project · NUS · 2026
   tags: Sim-to-real · Actuator modeling · Legged robots
-  image: /assets/images/actuator-network.png
-  alt: Neural actuator model using joint velocity and position history to predict torque.
-  caption: Learning actuator dynamics from real robot data.
+  image: /assets/images/fyp-results.png
+  image_link: /assets/images/fyp-results.png
+  alt: Commanded and actual forward velocity, lateral velocity, and yaw rate for PD-only and hybrid controllers.
+  caption: Velocity tracking with PD-only control (left) and the hybrid controller (right). Click to enlarge.
   description: >-
     Built a framework to learn actuator dynamics from real robot data and integrate
     them into policy training. Tested on Unitree Go1 and HEBI Daisy; a hybrid
