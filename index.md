@@ -49,10 +49,10 @@ title: Robotics Research
 
 <section id="experience">
   <div class="section-heading"><h2>Research experience</h2></div>
-  <article class="experience-item"><p class="meta">Sep 2026–present</p><div><h3><a href="https://figueroa.seas.upenn.edu">Figueroa Robotics Lab</a></h3><p class="position">Research Assistant · University of Pennsylvania</p><p class="supervision">Supervised by Professor <a href="https://figueroa.seas.upenn.edu/people/">Nadia Figueroa</a></p><p>Working on making state-of-the-art manipulation policies human-interactive.</p></div></article>
-  <article class="experience-item"><p class="meta">Jul 2025–Jul 2026</p><div><h3><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion Lab</a></h3><p class="position">Robotics Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.marmotlab.org/people.html">Guillaume Sartoretti</a></p><p>Developed sim-to-real pipelines for hierarchical reinforcement learning and reference-conditioned motion tracking across legged robot morphologies, with contributions to HeLoM and X-Morph.</p></div></article>
-  <article class="experience-item"><p class="meta">Jul–Nov 2025</p><div><h3><a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a></h3><p class="position">Research Intern · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.rayelab.org/rayeyeow">Raye Yeow</a></p><p>Designed and built a PID-regulated fluidic controller with a touchscreen interface for programmable soft-robot actuation.</p></div></article>
-  <article class="experience-item"><p class="meta">Aug–Dec 2024</p><div><h3>NUS Materials Science and Engineering</h3><p class="position">Undergraduate Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor Tural Khudiyev</p><p>Developed a soldering-based fabrication method for one-dimensional circuits with 96 micro-LEDs, and validated connectivity with an Arduino. Awarded a $5,000 project grant.</p></div></article>
+  <article class="experience-item"><p class="meta">Sep 2026–present</p><div><h3><a href="https://figueroa.seas.upenn.edu">Figueroa Robotics Lab</a></h3><p class="position">Research Assistant · University of Pennsylvania</p><p class="supervision">Supervised by Professor <a href="https://figueroa.seas.upenn.edu/people/">Nadia Figueroa</a></p></div></article>
+  <article class="experience-item"><p class="meta">Jul 2025–Jul 2026</p><div><h3><a href="https://www.marmotlab.org">Multi-Agent Robotic Motion Lab</a></h3><p class="position">Robotics Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.marmotlab.org/people.html">Guillaume Sartoretti</a></p></div></article>
+  <article class="experience-item"><p class="meta">Jul–Nov 2025</p><div><h3><a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a></h3><p class="position">Research Intern · National University of Singapore</p><p class="supervision">Supervised by Professor <a href="https://www.rayelab.org/rayeyeow">Raye Yeow</a></p></div></article>
+  <article class="experience-item"><p class="meta">Aug–Dec 2024</p><div><h3>NUS Materials Science and Engineering</h3><p class="position">Undergraduate Research Assistant · National University of Singapore</p><p class="supervision">Supervised by Professor Tural Khudiyev</p></div></article>
 </section>
 
 <section id="education">
@@ -65,7 +65,7 @@ title: Robotics Research
   <div class="section-heading"><h2>Beyond robotics</h2></div>
   <p>I enjoy playing (and occasionally watching) badminton, football, and squash and I'm also an SSI certified Advanced Open Water Diver. 
 
-  In my free time, I like to learn languages (at almost 6 so far), read books, or watch movies. (Check out <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>, a documentary I co-created.)
+  In my free time, I like to learn languages (at almost 6 so far), read <a href="https://www.goodreads.com/user/show/42428623-arhaan">books</a>, or watch movies. (Check out <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>, a documentary I co-created.)
   
   I co-created a short documentary about the Singapore Turf Club, <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>.</p>
 </section>
