@@ -17,7 +17,7 @@ Live URL: https://arhaan-jain.github.io/Website/
 
 Use `relative_url` for local links so they include `/Website`. Project media paths in `_data/projects.yml` are processed by the include automatically.
 
-The CV download is the supplied Industry résumé in DOCX format, which includes Penn and current lab experience. To switch to a PDF, add it to `assets/files/`, update `cv` in `_config.yml`, and change the format label in `_layouts/default.html`.
+The CV download is the supplied `UPenn Resume Academic.pdf`, published as `assets/files/arhaan-jain-academic-cv.pdf`. Update this copy when replacing the academic résumé.
 
 ## Source material
 
