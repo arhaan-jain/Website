@@ -52,7 +52,7 @@
   external_label: Full video on YouTube ↗
 
 - id: pillbuddy
-  title: PillBuddy: an automated pill dispenser for polypharmacy
+  title: "PillBuddy: an automated pill dispenser for polypharmacy"
   context: Medical Grand Challenge · NUS · Aug 2024
   tags: Mechatronic design · Servo actuation · Arduino · 3D printing
   image: /assets/images/pillbuddy.jpg
