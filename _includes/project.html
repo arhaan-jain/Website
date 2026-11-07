@@ -1,0 +1,20 @@
+<article class="project" id="{{ include.project.id }}">
+  <figure>
+    {% if include.project.video %}
+    <video controls playsinline muted preload="none" poster="{{ include.project.image | relative_url }}" aria-label="{{ include.project.title }} demonstration"><source src="{{ include.project.video | relative_url }}" type="video/mp4"><a href="{{ include.project.video | relative_url }}">Watch the demonstration</a>.</video>
+    {% else %}
+    <a href="{{ include.project.resource | relative_url }}"><img class="project-image" src="{{ include.project.image | relative_url }}" alt="{{ include.project.alt }}" loading="lazy" width="960" height="540"></a>
+    {% endif %}
+    <figcaption>{{ include.project.caption }}</figcaption>
+  </figure>
+  <p class="tags">{{ include.project.tags }}</p>
+  <h3>{{ include.project.title }}</h3>
+  <p class="meta">{{ include.project.context }}</p>
+  <p>{{ include.project.description }}</p>
+  {% if include.project.resource or include.project.external %}
+  <div class="resource-links">
+    {% if include.project.resource %}<a href="{{ include.project.resource | relative_url }}">{{ include.project.resource_label }}</a>{% endif %}
+    {% if include.project.external %}<a href="{{ include.project.external }}">{{ include.project.external_label }}</a>{% endif %}
+  </div>
+  {% endif %}
+</article>

@@ -1,41 +1,35 @@
-# Arhaan Jain's personal website
+# Arhaan Jain's robotics research portfolio
 
-A GitHub Pages portfolio using the official [Minimal Jekyll theme](https://github.com/pages-themes/minimal).
+A GitHub Pages website using the [Minimal Jekyll theme](https://github.com/pages-themes/minimal), with a custom responsive layout and project media.
 
-## Customize
+Live URL: https://arhaan-jain.github.io/Website/
 
-- Edit `_config.yml` to set your name (`title`) and short introduction (`description`).
-- Edit `index.md` to replace the placeholder bio, projects, experience, education, and contact information. Remove sections you don't need.
-- Add a photo to `assets/images/profile.jpg` and uncomment `logo` in `_config.yml` to show it in the sidebar.
-- Add your CV to `assets/files/cv.pdf` and uncomment the CV link in `index.md`.
-- Use `relative_url` for local images and links, as shown in the commented examples in `index.md`. This supports both root sites and project sites.
+## Edit the site
 
-The layout and CSS come from the theme; you do not need to copy its source files. No custom domain or paid hosting is required.
+- `index.md`: research introduction, papers, research experience, education, and skills.
+- `_data/projects.yml`: selected project descriptions, media paths, and links.
+- `more.html`: PillBuddy, industry experience, community work, and interests.
+- `_config.yml`: profile name, contact links, CV path, and GitHub Pages URL.
+- `_layouts/default.html`: shared profile sidebar and navigation.
+- `_includes/project.html`: reusable project entry.
+- `assets/css/style.scss`: styles extending the Minimal theme.
+- `assets/images/`, `assets/videos/`, `assets/files/`: curated assets served by the website.
 
-## Publish on GitHub Pages
+Use `relative_url` for local links so they include `/Website`. Project media paths in `_data/projects.yml` are processed by the include automatically.
 
-1. Sign in to GitHub as `arhaan-jain` and create an **empty public repository** named **`arhaan-jain.github.io`**. Don't add a README or other initial files there.
-2. The URL is already configured as `https://arhaan-jain.github.io`, with an empty `baseurl`.
-3. From this folder, run:
+The CV download is the supplied Industry résumé in DOCX format, which includes Penn and current lab experience. To switch to a PDF, add it to `assets/files/`, update `cv` in `_config.yml`, and change the format label in `_layouts/default.html`.
 
-   ```bash
-   git init
-   git branch -M main
-   git add .
-   git commit -m "Set up Minimal Jekyll portfolio"
-   git remote add origin https://github.com/arhaan-jain/arhaan-jain.github.io.git
-   git push -u origin main
-   ```
+## Source material
 
-4. On GitHub, open **Settings → Pages** in the repository.
-5. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/(root)**. Click **Save**.
-6. Check the repository's **Actions** tab for the Pages build. Once it finishes, open the URL shown in **Settings → Pages**.
+Original uploads in `W/`, `Profile Pic/`, and `Resume Dump/` are kept locally and excluded from both Git and Jekyll output. The site uses curated copies and compressed videos in `assets/`. Do not force-add the original folders: several original videos exceed GitHub's file-size limit.
 
-GitHub builds Jekyll for you. You do not need Ruby installed locally to publish. Keep Jekyll processing enabled; do not add a `.nojekyll` file.
+Content comes from the supplied résumé versions, HeLoM and X-Morph papers, the final-year presentation, and project reports. The more recent résumés supply Penn education and the current research role. The actuator-network project uses the presentation's Go1 platform description; the résumé's broader MARMot work also mentions Go2. Paper figures are taken from the supplied PDFs and link to their papers. Papers are labeled as preprints/under review, as specified in the résumés.
 
-## Optional local preview
+Project videos are silent H.264 MP4 clips at 960px wide, with poster images and on-demand playback. The turtle entry links to the full YouTube video. Other original videos remain in the local source folders for future use.
 
-With a current Ruby installation and Bundler available:
+## Local preview
+
+Use a current Ruby installation with Bundler (the system Ruby on older Macs may be too old for current GitHub Pages dependencies):
 
 ```bash
 bundle config set --local path vendor/bundle
@@ -43,17 +37,17 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open the local URL printed by Jekyll (normally `http://127.0.0.1:4000`). If `baseurl` is `/Website`, visit `http://127.0.0.1:4000/Website/`.
+Visit http://127.0.0.1:4000/Website/. Restart after changing `_config.yml`.
 
-Restart the preview after changing `_config.yml`. To check a production build:
+For a production build:
 
 ```bash
 bundle exec jekyll build
 ```
 
-## Future updates
+## Publish updates
 
-Edit your content, then run:
+The GitHub remote is `https://github.com/arhaan-jain/Website.git`. Pages should use **Deploy from a branch → main → /(root)**.
 
 ```bash
 git add .
@@ -61,4 +55,4 @@ git commit -m "Update portfolio"
 git push
 ```
 
-GitHub Pages rebuilds automatically after each push to `main`.
+Check the repository's Actions tab for the Pages build. GitHub runs Jekyll; do not add a `.nojekyll` file.

@@ -1,11 +1,14 @@
 title: Arhaan Jain
-description: Personal website and portfolio.
+description: Robotics researcher working on robot learning, whole-body control, and soft robotics.
 theme: jekyll-theme-minimal
 show_downloads: false
 lang: en-US
 
-# Uncomment after adding your photo to assets/images/.
-# logo: /assets/images/profile.jpg
+logo: /assets/images/arhaan-jain.jpg
+email: arhaanj@engineering.upenn.edu
+linkedin: https://www.linkedin.com/in/arhaanjain/
+github_profile: https://github.com/arhaan-jain
+cv: /assets/files/arhaan-jain-cv.docx
 
 # Project site for the arhaan-jain/Website repository.
 url: "https://arhaan-jain.github.io"
@@ -16,3 +19,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - W
+  - Profile Pic
+  - Resume Dump

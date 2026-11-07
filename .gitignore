@@ -10,3 +10,8 @@ vendor/
 
 # macOS
 .DS_Store
+
+# Original source material; curated web assets live in assets/.
+/W/
+/Profile Pic/
+/Resume Dump/

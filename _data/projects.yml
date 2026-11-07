@@ -1,0 +1,57 @@
+- id: actuator-networks
+  title: Bridging the sim-to-real gap
+  context: Undergraduate final-year project · NUS · 2026
+  tags: Sim-to-real · Actuator modeling · Legged robots
+  image: /assets/images/actuator-network.png
+  alt: Neural actuator model using joint velocity and position history to predict torque.
+  caption: Learning actuator dynamics from real robot data.
+  description: >-
+    Built a framework to learn actuator dynamics from real robot data and integrate
+    them into policy training. Tested on Unitree Go1 and HEBI Daisy; a hybrid
+    controller paired learned actuator models with PD control for the hexapod's
+    different limb roles. In the final-year experiments, the hybrid controller
+    reduced average velocity-tracking error by at least 20% relative to PD-only control.
+  resource: /assets/files/actuator-networks-presentation.pdf
+  resource_label: Presentation (PDF)
+
+- id: pusher
+  title: Learning contact-rich pushing
+  context: Deep Learning for Robotics · NUS · Jan–Apr 2025
+  tags: Reinforcement learning · PPO · MuJoCo
+  image: /assets/images/pusher.jpg
+  video: /assets/videos/pusher.mp4
+  caption: A learned policy pushes an object to its target in MuJoCo. Silent clip.
+  description: >-
+    Developed a custom MuJoCo–Gym environment for a 7-DOF arm and trained a compact
+    actor–critic PPO policy with generalized advantage estimation. Structured
+    observations, multi-phase rewards, and policy fine-tuning achieved a
+    <strong>92.8% success rate over 1,000 evaluation episodes</strong> in the simulated task,
+    using CPU-only training.
+
+- id: fluidic-controller
+  title: A controller for soft robotic actuators
+  context: Evolution Innovation Lab (Raye Lab) · Jul–Nov 2025
+  tags: Soft robotics · PID control · Embedded systems
+  image: /assets/images/fluidic-controller.jpg
+  video: /assets/videos/fluidic-controller.mp4
+  caption: Touchscreen-controlled pneumatic actuation on the test bench. Silent clip.
+  description: >-
+    Designed a fluidic control board for soft actuators, with PID pressure regulation
+    over 0–150 kPa and programmable inflation/deflation cycles. Integrated an Arduino
+    GIGA and touchscreen interface, then documented the electronics, CAD assembly,
+    and firmware for replication.
+
+- id: robotic-turtle
+  title: A bio-inspired soft robotic turtle
+  context: Soft Robotics · NUS · Aug–Dec 2024
+  tags: Bio-inspired design · Pneumatics · Wireless control
+  image: /assets/images/robotic-turtle.jpg
+  video: /assets/videos/robotic-turtle.mp4
+  caption: The team's untethered turtle prototype swimming forward. Silent clip.
+  description: >-
+    Co-designed and built a swimming robot with custom silicone bellow actuators
+    and an ESP32 pump–valve controller. Developed wireless control using PS4
+    Bluetooth inputs and Python speech-to-text commands to trigger actuation sequences.
+    The project brought together soft-actuator fabrication, embedded control, and physical testing.
+  external: https://youtu.be/mDrqh73WVw4
+  external_label: Full video on YouTube ↗
