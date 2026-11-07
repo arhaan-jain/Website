@@ -1,0 +1,18 @@
+title: Arhaan Jain
+description: Personal website and portfolio.
+theme: jekyll-theme-minimal
+show_downloads: false
+lang: en-US
+
+# Uncomment after adding your photo to assets/images/.
+# logo: /assets/images/profile.jpg
+
+# Root site for the arhaan-jain.github.io repository.
+url: "https://arhaan-jain.github.io"
+baseurl: ""
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
