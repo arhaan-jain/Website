@@ -7,9 +7,9 @@ lang: en-US
 # Uncomment after adding your photo to assets/images/.
 # logo: /assets/images/profile.jpg
 
-# Root site for the arhaan-jain.github.io repository.
+# Project site for the arhaan-jain/Website repository.
 url: "https://arhaan-jain.github.io"
-baseurl: ""
+baseurl: "/Website"
 
 exclude:
   - README.md
