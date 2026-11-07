@@ -13,7 +13,7 @@ title: Robotics Research
 </section>
 
 <section id="research">
-  <div class="section-heading"><h2>Selected research</h2><span>Preprints &amp; manuscripts under review</span></div>
+  <div class="section-heading"><h2>Publications</h2></div>
   <article class="research-item">
     <a class="research-image" href="https://arxiv.org/abs/2606.30290"><img src="{{ '/assets/images/x-morph.png' | relative_url }}" alt="X-Morph transfers human walking, squatting, and arm movements to quadruped and hexapod robots." loading="lazy" width="980" height="443"></a>
     <div>
