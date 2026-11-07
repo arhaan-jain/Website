@@ -49,7 +49,9 @@ main > section { float: none; width: auto; padding: 0; border: 0; margin: 0 0 52
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 25px; }
 .project { min-width: 0; }
 .project figure { margin: 0 0 15px; }
-.project video, .project .project-image { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; background: #f3f5f4; border: 1px solid var(--line); border-radius: 5px; }
+.project video, .project-image-link { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; background: #f3f5f4; border: 1px solid var(--line); border-radius: 5px; }
+.project-image-link { position: relative; overflow: hidden; }
+.project .project-image { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
 .project video { background: #111; }
 figcaption { font-size: 11px; color: var(--muted); margin-top: 7px; line-height: 1.5; }
 .project p { font-size: 14px; }
