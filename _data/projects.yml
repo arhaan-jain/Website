@@ -1,22 +1,21 @@
 - id: actuator-networks
-  title: Bridging the sim-to-real gap
+  title: Learning actuator dynamics using neural networks for sim-to-real transfer
   context: Undergraduate final-year project · NUS · 2026
-  tags: Sim-to-real transfer · Learned actuator dynamics · Supervised torque regression · Hybrid PD control · Isaac Lab
+  tags: Sim-to-real transfer · System identification · Neural networks · PD control · Isaac Lab
   image: /assets/images/fyp-results.png
   image_link: /assets/images/fyp-results.png
   alt: Commanded and actual forward velocity, lateral velocity, and yaw rate for PD-only and hybrid controllers.
-  caption: Velocity tracking with PD-only control (left) and the hybrid controller (right). Click to enlarge.
+  caption: Comparison of velocity tracking with PD-only control (left) and the actuator-net augmented controller (right).
   description: >-
     Built a framework to learn actuator dynamics from real robot data and integrate
     them into policy training. Tested on Unitree Go1 and HEBI Daisy; a hybrid
     controller paired learned actuator models with PD control for the hexapod's
-    different limb roles. In the final-year experiments, the hybrid controller
-    reduced average velocity-tracking error by at least 20% relative to PD-only control.
+    different limb roles. The hybrid controller <strong> reduced average velocity-tracking error by at least 20%</strong> relative to PD-only control.
 
 - id: pusher
-  title: Learning contact-rich pushing
-  context: Deep Learning for Robotics · NUS · Jan–Apr 2025
-  tags: Reinforcement learning · PPO · Generalized advantage estimation (GAE) · Reward shaping · Continuous torque control · MuJoCo
+  title: Learning contact-rich pushing using reinforcement learning
+  context: Deep Learning for Robotics · NUS · Apr 2025
+  tags: Reinforcement learning · PPO · Reward shaping · MuJoCo
   image: /assets/images/pusher.jpg
   video: /assets/videos/pusher.mp4
   caption: A learned policy pushes an object to its target in MuJoCo. Silent clip.
@@ -28,22 +27,20 @@
     using CPU-only training.
 
 - id: fluidic-controller
-  title: A controller for soft robotic actuators
-  context: '<a href="https://www.rayelab.org">Evolution Innovation Lab (Raye Lab)</a> · NUS · Jul–Nov 2025'
-  tags: Soft robotics · Pneumatic actuation · PID pressure regulation · Embedded control · Touchscreen HMI · Arduino GIGA
+  title: Soft robotic actuator controller
+  context: 'Evolution Innovation Lab (Raye Lab)</a> · NUS · Nov 2025'
+  tags: Soft robotics · Pneumatic actuation · Embedded feedback control · Arduino GIGA
   image: /assets/images/fluidic-controller.jpg
   video: /assets/videos/fluidic-controller.mp4
   caption: Touchscreen-controlled pneumatic actuation on the test bench. Silent clip.
   description: >-
     Designed a fluidic control board for soft actuators, with PID pressure regulation
-    over 0–150 kPa and programmable inflation/deflation cycles. Integrated an Arduino
-    GIGA and touchscreen interface, then documented the electronics, CAD assembly,
-    and firmware for replication.
+    over 0–150 kPa and programmable inflation/deflation cycles.
 
 - id: robotic-turtle
-  title: A bio-inspired soft robotic turtle
-  context: Soft Robotics · NUS · Aug–Dec 2024
-  tags: Soft robotics · Pneumatic actuation · Silicone molding · Open-loop actuation sequencing · ESP32 · Bluetooth / Wi-Fi
+  title: Bio-inspired soft robotic turtle
+  context: Soft Robotics · NUS · Dec 2024
+  tags: Soft robotics · Pneumatic actuation · Silicone molding · Open-loop actuation sequencing · ESP32 · Bluetooth / Wi-Fi Integration
   image: /assets/images/robotic-turtle.jpg
   video: /assets/videos/robotic-turtle.mp4
   caption: The team's untethered turtle prototype swimming forward. Silent clip.
@@ -51,14 +48,13 @@
     Co-designed and built a swimming robot with custom silicone bellow actuators
     and an ESP32 pump–valve controller. Developed wireless control using PS4
     Bluetooth inputs and Python speech-to-text commands to trigger actuation sequences.
-    The project brought together soft-actuator fabrication, embedded control, and physical testing.
   external: https://youtu.be/mDrqh73WVw4
   external_label: Full video on YouTube ↗
 
 - id: pillbuddy
-  title: PillBuddy — automated pill dispensing
-  context: Medical Grand Challenge · NUS · Mar–Aug 2024
-  tags: Mechatronic design · Servo actuation · Rotary dispensing · Embedded control · Arduino · 3D printing
+  title: PillBuddy — an automated pill dispenser to tackle polypharmacy
+  context: Medical Grand Challenge · NUS · Aug 2024
+  tags: Mechatronic design · Servo actuation · Arduino · 3D printing
   image: /assets/images/pillbuddy.jpg
   video: /assets/videos/pillbuddy.mp4
   caption: A servo-driven rotating mechanism in the pill-dispenser prototype. Silent clip.

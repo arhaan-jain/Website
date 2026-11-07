@@ -18,7 +18,8 @@ title: Robotics Research
       <h3>X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies</h3>
       <p class="authors">Ritwik Sharma, Shivam Sood, <strong>Arhaan Jain</strong>, Shyam Charan Kesavamoorthi, Chengyang He, Guillaume Sartoretti</p>
       <p class="meta">arXiv:2606.30290 · 2026 · Under review</p>
-      <p>Transferring human motion into executable behaviors for quadrupeds, hexapods, and quadruped manipulators. I developed and deployed a reference-conditioned tracking policy for motion transfer across these morphologies.</p>
+      <p>A pipeline for human motion into executable behaviors for quadrupeds, hexapods, and quadruped manipulators.
+      My contribution was in developing and sim-to-real deployment of a reference-conditioned tracking policy for motion transfer on the HEBI Robotics Hexapod.</p>
       <p class="tags">Cross-morphology motion retargeting · Reference-conditioned reinforcement learning · Teacher–student distillation · Physics-aware motion correction</p>
       <div class="resource-links"><a href="https://arxiv.org/abs/2606.30290">arXiv</a><a href="{{ '/assets/files/x-morph.pdf' | relative_url }}">Paper (PDF)</a><a href="https://maker-rat.github.io/morph/">Project &amp; demos ↗</a></div>
     </div>
@@ -29,7 +30,8 @@ title: Robotics Research
       <h3>HeLoM: Hierarchical Learning for Whole-Body Loco-Manipulation by a Hexapod Robot</h3>
       <p class="authors">Xinrong Yang, Peizhuo Li, Hongyi Li, Yifeng Peng, <strong>Arhaan Jain</strong>, Junkai Lu, Linnan Chang, Yuhong Cao, Yifeng Zhang, Ge Sun, Guillaume Sartoretti</p>
       <p class="meta">arXiv:2509.23651 · 2025, revised 2026 · Under review</p>
-      <p>A hierarchical learning framework that coordinates a hexapod's forelegs and supporting limbs to push objects while maintaining balance. My related work at <a href="https://www.marmotlab.org">MARMot</a> focused on actuator-network-based sim-to-real training and deployment on the HEBI Daisy hexapod.</p>
+      <p>A hierarchical learning framework that coordinates a hexapod's forelegs and supporting limbs to push objects while maintaining balance.
+      My contribution involved training actuator networks to model the actuator dynamics of the Unitree Go1 and HEBI Robotics hexapod, consistently achieving better performance than conventional PD control. </p>
       <p class="tags">Hierarchical reinforcement learning · PPO · Whole-body loco-manipulation · Learned actuator dynamics · Sim-to-real transfer</p>
       <div class="resource-links"><a href="https://arxiv.org/abs/2509.23651">arXiv</a><a href="{{ '/assets/files/helom.pdf' | relative_url }}">Paper (PDF)</a></div>
     </div>
