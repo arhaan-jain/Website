@@ -63,9 +63,8 @@ title: Robotics Research
 
 <section id="beyond-robotics">
   <div class="section-heading"><h2>Beyond robotics</h2></div>
-  <p>I enjoy playing (and occasionally watching) badminton, football, and squash and I'm also an SSI certified Advanced Open Water Diver. 
+  <p>I enjoy playing (and occasionally watching) badminton, football, and squash and I'm also an SSI certified Advanced Open Water Diver. </p>
 
-  In my free time, I like to learn languages (at almost 6 so far), read <a href="https://www.goodreads.com/user/show/42428623-arhaan">books</a>, or watch movies. (Check out <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>, a documentary I co-created.)
+  <p>In my free time, I like to learn languages (at almost 6 so far), read <a href="https://www.goodreads.com/user/show/42428623-arhaan">books</a>, or watch movies. (Check out <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>, a documentary I co-created.)</p>
   
-  I co-created a short documentary about the Singapore Turf Club, <a href="https://youtu.be/mcHM3d-Wybg"><em>The Last Lap</em></a>.</p>
 </section>
