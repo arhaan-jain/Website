@@ -69,10 +69,12 @@
   title: Wearable fabric electronics
   context: Undergraduate Research Experience (UREx) · NUS · 2024
   tags: Wearable electronics · 1D circuit fabrication · Microsoldering · Micro-LED integration · Arduino
-  image: /assets/images/urex-circuit.jpg
-  image_link: /assets/images/urex-circuit.jpg
-  alt: A flexible line of 96 interconnected micro-LEDs laid out on a workbench.
-  caption: Fabricated 1D circuit containing 96 micro-LEDs. Click to enlarge.
+  images:
+    - src: /assets/images/urex-fabrication.png
+      alt: Close-ups of the alignment mold and micro-LEDs positioned for fabrication.
+    - src: /assets/images/urex-illuminated.png
+      alt: The fabricated micro-LED circuit illuminated blue during testing.
+  caption: Alignment mold and micro-LED placement (left); illuminated circuit (right). Images from my UREx report.
   description: >-
     Fabricated a one-dimensional circuit for wearable electronics under the
     supervision of Professor Tural Khudiyev. Used a custom alignment mold and
@@ -81,5 +83,10 @@
     Validated electrical functionality by illuminating all 96 LEDs with an Arduino,
     and identified mechanical fragility and manual assembly as limitations for
     future textile integration.
+    <br><br>Related lab research — Fu et al.,
+    <a href="https://doi.org/10.1038/s41586-026-11128-9">Touch-sensing digital pixel fibre enables interactive garment GUI</a>
+    (<em>Nature</em>, 2026) — uses mold-aligned micro-LED circuit fabrication,
+    an approach also explored in my UREx work. I am not an author of that paper;
+    the work described here is my UREx fabrication and testing project.
   resource: /assets/files/urex-project-report.pdf
   resource_label: Project report (PDF)

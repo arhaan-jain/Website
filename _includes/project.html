@@ -2,6 +2,8 @@
   <figure>
     {% if include.project.video %}
     <video controls playsinline muted preload="none" poster="{{ include.project.image | relative_url }}" aria-label="{{ include.project.title }} demonstration"><source src="{{ include.project.video | relative_url }}" type="video/mp4"><a href="{{ include.project.video | relative_url }}">Watch the demonstration</a>.</video>
+    {% elsif include.project.images %}
+    <a class="project-image-link project-image-collage" href="{{ include.project.resource | relative_url }}">{% for panel in include.project.images %}<img class="project-image-panel" src="{{ panel.src | relative_url }}" alt="{{ panel.alt }}" loading="lazy">{% endfor %}</a>
     {% else %}
     <a class="project-image-link" href="{{ include.project.image_link | default: include.project.resource | relative_url }}"><img class="project-image" src="{{ include.project.image | relative_url }}" alt="{{ include.project.alt }}" loading="lazy"></a>
     {% endif %}
